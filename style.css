@@ -60,3 +60,11 @@
 .rotating-bear img{transition:opacity .65s ease-in-out;}
 @media(max-width:520px){.rotating-bear{height:clamp(175px,53vw,225px)}}
 @media(prefers-reduced-motion:reduce){.rotating-bear img{transition:none}}
+
+/* CSS-only slideshow: each illustration stays visible for 2 seconds. */
+.rotating-bear img{animation:bearFrameSwap 4s steps(1,end) infinite!important;transition:none!important;}
+.rotating-bear img:nth-child(1){animation-delay:0s!important;}
+.rotating-bear img:nth-child(2){animation-delay:-2s!important;}
+@keyframes bearFrameSwap{0%,49.99%{opacity:1}50%,99.99%{opacity:0}}
+/* There is no manual Next control in this slideshow. */
+.next-frame-button,#nextFrameButton,[data-next-frame],.next-image-button,#nextImageButton{display:none!important;}
