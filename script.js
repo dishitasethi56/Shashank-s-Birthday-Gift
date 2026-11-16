@@ -15,3 +15,6 @@ document.querySelectorAll(".rotating-bear").forEach(gallery=>{
    frames[active].classList.add("is-visible");
  },2000);
 });
+
+// Remove any legacy manual slideshow control left by an older cached version.
+document.querySelectorAll(".next-frame-button, #nextFrameButton, [data-next-frame]").forEach(button=>button.remove());
