@@ -21,3 +21,10 @@
 @keyframes cornerFloat{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-11px) rotate(3deg)}}
 @media(max-width:520px){.corner-mascot{width:clamp(82px,24vw,112px);height:clamp(82px,24vw,112px);opacity:.96}}
 @media(prefers-reduced-motion:reduce){.corner-mascot{animation:none}}
+
+/* Centered character with a small caption on the first three pages */
+.hero-mascot{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;margin:0 auto 12px;position:relative;z-index:2}
+.hero-mascot-image{display:block;width:clamp(150px,30vw,235px);height:clamp(130px,26vw,205px);object-fit:contain;filter:drop-shadow(0 12px 12px #62548b30);animation:heroBearFloat 3s ease-in-out infinite}
+.hero-mascot-caption{margin:0;color:#926b9f;font-size:.88rem;font-weight:700;letter-spacing:.025em}
+@keyframes heroBearFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
+@media(max-width:520px){.hero-mascot-image{width:clamp(135px,43vw,185px);height:clamp(120px,38vw,165px)}}
