@@ -10,3 +10,14 @@
 @keyframes bearBounce{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-12px) rotate(2deg)}}
 .page-card{isolation:isolate}.page-card:before{z-index:-1}.page-card:after{animation:twinkle 1.5s infinite alternate}.no-page h1{color:#e83e68}
 @media(max-width:520px){.bear-gallery{gap:0}.bear-gallery img{width:43%!important;height:110px}.bear-gallery img:nth-child(3),.bear-gallery img:nth-child(4){margin-top:-12px}}
+
+
+/* One floating Bubu-Dudu illustration per page */
+.corner-mascot{position:fixed;z-index:5;width:clamp(104px,15vw,172px);height:clamp(104px,15vw,172px);object-fit:contain;filter:drop-shadow(0 10px 12px #5b4b8b35);pointer-events:none;animation:cornerFloat 3.2s ease-in-out infinite}
+.corner-mascot.mascot-br{right:clamp(8px,2vw,26px);bottom:clamp(8px,2vw,24px)}
+.corner-mascot.mascot-tr{right:clamp(8px,2vw,26px);top:clamp(8px,2vw,24px);animation-delay:-.8s}
+.corner-mascot.mascot-tl{left:clamp(8px,2vw,26px);top:clamp(8px,2vw,24px);animation-delay:-1.5s}
+.corner-mascot.mascot-bl{left:clamp(8px,2vw,26px);bottom:clamp(8px,2vw,24px);animation-delay:-2.2s}
+@keyframes cornerFloat{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-11px) rotate(3deg)}}
+@media(max-width:520px){.corner-mascot{width:clamp(82px,24vw,112px);height:clamp(82px,24vw,112px);opacity:.96}}
+@media(prefers-reduced-motion:reduce){.corner-mascot{animation:none}}
