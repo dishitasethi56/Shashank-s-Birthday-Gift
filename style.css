@@ -54,3 +54,9 @@
 .rotating-bear img.is-visible{opacity:1;}
 @media(max-width:520px){.rotating-bear{width:clamp(175px,55vw,225px);height:clamp(155px,48vw,200px);}}
 @media(prefers-reduced-motion:reduce){.rotating-bear img{transition:none}}
+
+/* Manual gallery navigation: no autoplay */
+.rotating-bear{height:clamp(205px,38vw,280px);}
+.rotating-bear .next-frame-button{position:absolute;z-index:3;bottom:0;left:50%;transform:translateX(-50%);border:2px solid #fff;border-radius:999px;padding:7px 19px;background:linear-gradient(135deg,#78d8ff,#b9a2ff);color:#354b7a;font:800 .9rem 'Baloo 2',sans-serif;box-shadow:0 5px 12px #625e9b30;cursor:pointer;white-space:nowrap;}
+.rotating-bear .next-frame-button:active{transform:translateX(-50%) scale(.96)}
+@media(max-width:520px){.rotating-bear{height:clamp(190px,53vw,235px)}}
