@@ -28,3 +28,21 @@
 .hero-mascot-caption{margin:0;color:#926b9f;font-size:.88rem;font-weight:700;letter-spacing:.025em}
 @keyframes heroBearFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
 @media(max-width:520px){.hero-mascot-image{width:clamp(135px,43vw,185px);height:clamp(120px,38vw,165px)}}
+
+/* Centered storybook layout with arched text */
+.hero-mascot{display:none}
+.arc-heading{display:block;width:min(100%,650px);height:auto;overflow:visible;margin:0 auto}
+.arc-heading text{font-family:'Baloo 2',sans-serif;font-size:43px;font-weight:800;letter-spacing:1px;fill:#4c4b83;paint-order:stroke;stroke:#fff;stroke-width:5px;stroke-linejoin:round}
+.arc-top{margin-bottom:-2px}
+.arc-bottom{margin-top:-2px}
+.center-stage-bear{display:block;width:clamp(190px,38vw,285px);height:clamp(170px,34vw,245px);object-fit:contain;margin:0 auto;filter:drop-shadow(0 14px 14px #62548b35);animation:heroBearFloat 3s ease-in-out infinite}
+.page-card .button-row{display:flex;flex-wrap:nowrap;gap:clamp(10px,3vw,24px);justify-content:center;align-items:center;width:100%;margin:10px auto 0}
+.page-card .button-row .bubble-button{white-space:nowrap;min-width:112px}
+.no-page .arc-heading text{fill:#e83e68}
+@media(max-width:520px){
+ .page-card{padding:22px 15px}
+ .arc-heading text{font-size:39px;stroke-width:4px}
+ .center-stage-bear{width:clamp(175px,55vw,225px);height:clamp(155px,48vw,200px)}
+ .page-card .button-row{gap:9px}
+ .page-card .button-row .bubble-button{padding:11px 17px;font-size:.92rem;min-width:100px}
+}
