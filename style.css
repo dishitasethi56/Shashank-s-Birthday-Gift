@@ -390,3 +390,9 @@ body.first-gift-bg .birthday-title{
  -webkit-text-stroke:1.5px #ffffff;
  paint-order:stroke fill;
 }
+
+
+/* Sunoo page: warm-gold text on the Back to My Letter button. */
+body.sunoo-page-bg .bubble-button.hot{
+ color:#d6a23e;
+}
