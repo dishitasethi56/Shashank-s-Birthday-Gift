@@ -619,3 +619,10 @@ body.sunoo-page-bg .bubble-button.hot{
  color:#BFEFFF;
  border-color:#BFEFFF;
 }
+
+
+/* First page: remove the translucent blush-pink background behind the small eyebrow caption only. */
+body.first-page .eyebrow{
+ background:transparent;
+ box-shadow:none;
+}
