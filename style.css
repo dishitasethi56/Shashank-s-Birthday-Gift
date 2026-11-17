@@ -575,3 +575,10 @@ body.second-gift-bg .cake-card h1{
  -webkit-text-stroke:0;
  text-shadow:0 0 7px #FFF1C1,0 0 16px #FFF1C1,0 0 28px #f6e7a8;
 }
+
+
+/* Make a Wish: keep the button buttercream, but make its label dark brown only. */
+body.second-gift-bg .cake-card .bubble-button,
+body.second-gift-bg .cake-card .bubble-button.hot{
+ color:#5A3A2E;
+}
