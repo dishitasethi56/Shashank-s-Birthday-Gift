@@ -460,3 +460,11 @@ body.third-gift-bg .page-card > h1{
  -webkit-text-stroke:1.5px #ffffff;
  paint-order:stroke fill;
 }
+
+
+/* Open Your Letter: change its buttercream title outline to dark brown. */
+body.third-gift-bg .page-card > h1{
+ color:#f6e7a8;
+ -webkit-text-stroke:3px #5A3A2E;
+ paint-order:stroke fill;
+}
