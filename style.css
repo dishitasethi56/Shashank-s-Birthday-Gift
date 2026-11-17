@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Fredoka:wght@500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
 :root{--ink:#3e426d;--blue:#72c9f3;--sky:#c8efff;--pink:#ffb8d0;--rose:#ff709d;--red:#e83e68;--purple:#b9a2ff;--yellow:#ffe28b;--mint:#a8eadc}
 *{box-sizing:border-box}html{min-height:100%;scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:'Baloo 2',sans-serif;color:var(--ink);background:radial-gradient(circle at 12% 18%,#fff9 0 5%,transparent 18%),radial-gradient(circle at 88% 78%,#ffc4dc99 0 4%,transparent 20%),linear-gradient(135deg,#8cdbff 0%,#c8c2ff 42%,#ffd0df 75%,#fff0b9 100%);background-attachment:fixed;overflow-x:hidden}
 .confetti-bg{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:-1}.confetti-bg i{position:absolute;font-style:normal;color:#fff9;font-size:30px;animation:drift 12s linear infinite}.confetti-bg i:nth-child(1){left:8%;top:90%}.confetti-bg i:nth-child(2){left:25%;top:110%;animation-delay:-4s;color:#ff5e8d}.confetti-bg i:nth-child(3){left:70%;top:95%;animation-delay:-8s}.confetti-bg i:nth-child(4){left:90%;top:100%;animation-delay:-2s;color:#fff}.confetti-bg i:nth-child(5){left:52%;top:110%;animation-delay:-6s}.confetti-bg i:nth-child(6){left:40%;top:90%;animation-delay:-10s}@keyframes drift{to{transform:translateY(-120vh) rotate(300deg);opacity:0}}
@@ -176,3 +176,56 @@ body.pick-gift-bg .present-card.gift-three{
 body.pick-gift-bg .present-card b{color:#493528;text-shadow:0 1px 0 #fffdf0}
 body.pick-gift-bg .present-card small{color:#554437;text-shadow:0 1px 0 #fffdf0}
 body.pick-gift-bg .present-card strong{color:#356b5e;text-shadow:0 1px 0 #fffdf0}
+
+
+/* Final Pick Your Present palette: readable cocoa + deep botanical green */
+body.pick-gift-bg .page-heading h1{
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ letter-spacing:.01em;
+ color:#3f5f50;
+ text-shadow:0 2px 0 #fffdf0,0 4px 14px #fff9;
+}
+body.pick-gift-bg .eyebrow{
+ background:#f6f1dcf0;
+ color:#496b59;
+ border:1px solid #b9cdbb;
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ letter-spacing:.08em;
+}
+body.pick-gift-bg .subtitle{
+ background:#f8f4e8eF;
+ color:#4d5948;
+ font-family:'Baloo 2',sans-serif;
+ font-weight:800;
+}
+body.pick-gift-bg .present-card{
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ color:#493b30;
+}
+body.pick-gift-bg .present-card b{
+ color:#493b30;
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-size:1.42rem;
+ font-weight:700;
+}
+body.pick-gift-bg .present-card small{
+ color:#514b3e;
+ font-weight:700;
+}
+body.pick-gift-bg .present-card strong{
+ color:#315f50;
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ letter-spacing:.08em;
+ text-shadow:0 1px 0 #fffdf0;
+}
+body.pick-gift-bg .back-link,
+body.pick-gift-bg footer{
+ color:#405e4e;
+}
+@media(max-width:760px){
+ body.pick-gift-bg .page-heading h1{font-size:clamp(2.6rem,10vw,3.5rem)}
+ body.pick-gift-bg .present-card b{font-size:1.32rem}
+}
