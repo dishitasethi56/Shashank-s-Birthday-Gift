@@ -608,3 +608,14 @@ body.sunoo-page-bg .arc-heading text{
  stroke-linejoin:round;
  paint-order:stroke fill;
 }
+
+
+/* Sunoo page finishing touches: icy-blue label background, button text and button outline. */
+body.sunoo-page-bg .eyebrow{
+ background:#BFEFFF;
+ color:#d6a23e;
+}
+body.sunoo-page-bg .bubble-button.hot{
+ color:#BFEFFF;
+ border-color:#BFEFFF;
+}
