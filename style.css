@@ -452,3 +452,11 @@ body.third-gift-bg .page-card > h1{
  -webkit-text-stroke:1.5px #ffffff;
  paint-order:stroke fill;
 }
+
+
+/* Exact Make a Wish title colours and outline on Open Your Letter. */
+body.third-gift-bg .page-card > h1{
+ color:#f6e7a8;
+ -webkit-text-stroke:1.5px #ffffff;
+ paint-order:stroke fill;
+}
