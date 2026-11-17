@@ -94,7 +94,11 @@ body.no-page-bg .page-card:before,body.no-page-bg .page-card:after,body.sunoo-pa
 body.pick-gift-bg .wide-page{background:transparent!important;box-shadow:none!important;border:0!important}
 body.no-page-bg .confetti-bg,body.sunoo-page-bg .confetti-bg,body.first-gift-bg .confetti-bg,body.second-gift-bg .confetti-bg,body.third-gift-bg .confetti-bg,body.pick-gift-bg .confetti-bg,body.yes-page-bg .confetti-bg{z-index:-1}
 @media(min-width:761px){
- body.no-page-bg::before,body.sunoo-page-bg::before,body.first-gift-bg::before,body.second-gift-bg::before,body.third-gift-bg::before,body.yes-page-bg::before{inset:auto;width:100vh;height:100vw;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg)}
+ body.no-page-bg::before,body.sunoo-page-bg::before,body.first-gift-bg::before,body.third-gift-bg::before,body.yes-page-bg::before{inset:auto;width:100vh;height:100vw;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg)}
+}
+/* Pick-your-present and make-a-wish cake artwork are landscape on desktop and rotated portrait on mobile. */
+@media(max-width:760px){
+ body.second-gift-bg::before{inset:auto;width:100vh;height:100vw;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg)}
 }
 /* Pick-your-present artwork is landscape on desktop and rotated portrait on mobile. */
 @media(max-width:760px){
