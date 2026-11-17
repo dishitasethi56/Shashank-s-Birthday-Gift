@@ -396,3 +396,11 @@ body.first-gift-bg .birthday-title{
 body.sunoo-page-bg .bubble-button.hot{
  color:#d6a23e;
 }
+
+
+/* Sunoo page: warm-gold button box, retaining readable white button text. */
+body.sunoo-page-bg .bubble-button.hot{
+ background:linear-gradient(135deg,#e5bd62,#c99735);
+ color:#fffdf5;
+ border-color:#fff8e8;
+}
