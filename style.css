@@ -650,3 +650,8 @@ body.first-page .page-card.landing > .eyebrow{
  border-radius:999px!important;
  padding:7px 16px!important;
 }
+
+
+/* Dark-brown labels on the NO and YES choice buttons only. */
+body.no-page-bg .button-row .bubble-button,
+body.yes-page-bg .button-row .bubble-button{color:#5A3A2E!important;}
