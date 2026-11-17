@@ -422,3 +422,12 @@ body.first-gift-bg .birthday-title span{
  -webkit-text-stroke:3px #ffffff;
  paint-order:stroke fill;
 }
+
+
+/* Birthday title: switch the thick outline from white to dark brown. */
+body.first-gift-bg .birthday-title,
+body.first-gift-bg .birthday-title span{
+ color:#FFE4E1;
+ -webkit-text-stroke:3px #5A3A2E;
+ paint-order:stroke fill;
+}
