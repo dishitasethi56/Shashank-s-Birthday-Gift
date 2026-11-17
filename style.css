@@ -468,3 +468,11 @@ body.third-gift-bg .page-card > h1{
  -webkit-text-stroke:3px #5A3A2E;
  paint-order:stroke fill;
 }
+
+
+/* Open Your Letter title: beige fill, retaining the dark-brown outline. */
+body.third-gift-bg .page-card > h1{
+ color:#E8D5B5;
+ -webkit-text-stroke:3px #5A3A2E;
+ paint-order:stroke fill;
+}
