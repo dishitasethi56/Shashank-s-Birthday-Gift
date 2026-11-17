@@ -632,3 +632,10 @@ body.first-page .eyebrow{
 body.first-page .page-card.landing:before{
  display:none!important;
 }
+
+
+/* First page: restore the blush translucent pill behind the eyebrow caption. */
+body.first-page .eyebrow{
+ background:#fff0f8ed;
+ box-shadow:0 3px 14px #27345b22;
+}
