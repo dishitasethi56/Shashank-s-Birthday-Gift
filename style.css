@@ -268,3 +268,22 @@ body.sunoo-page-bg h1,
 body.sunoo-page-bg h1 span,
 body.sunoo-page-bg .eyebrow,
 body.sunoo-page-bg .signature{color:#a87927}
+
+
+/* Refined page titles: change only title typography and title-area text colours */
+body.third-gift-bg .page-card > h1{
+ font-family:'Playfair Display',serif;
+ font-weight:800;
+ letter-spacing:-.025em;
+ color:#a85d43;
+ text-shadow:0 2px 0 #fff8ed,0 4px 12px #7d493326;
+}
+body.pick-gift-bg .page-heading > h1{
+ font-family:'Playfair Display',serif;
+ font-weight:800;
+ letter-spacing:-.025em;
+ color:#a77b2d;
+ text-shadow:0 2px 0 #fff8ed,0 4px 12px #7d642c26;
+}
+body.pick-gift-bg .page-heading > .eyebrow{color:#9a7040}
+body.pick-gift-bg .page-heading > .subtitle{color:#66503d}
