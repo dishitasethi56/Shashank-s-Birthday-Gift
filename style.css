@@ -476,3 +476,8 @@ body.third-gift-bg .page-card > h1{
  -webkit-text-stroke:3px #5A3A2E;
  paint-order:stroke fill;
 }
+
+
+/* First page colour test: warm tan on the upper arc and soft turquoise on the lower arc. Text colour only; preserve the existing white outline. */
+body.first-page .arc-top text{fill:#B8956A;color:#B8956A;}
+body.first-page .arc-bottom text{fill:#65B9AD;color:#65B9AD;}
