@@ -582,3 +582,20 @@ body.second-gift-bg .cake-card .bubble-button,
 body.second-gift-bg .cake-card .bubble-button.hot{
  color:#5A3A2E;
 }
+
+
+/* Make a Wish page: keep all supporting text dark brown; only the heading stays buttercream. */
+body.second-gift-bg .cake-card,
+body.second-gift-bg .cake-card .eyebrow,
+body.second-gift-bg .cake-card .subtitle,
+body.second-gift-bg .cake-card .message{
+ color:#5A3A2E;
+}
+body.second-gift-bg .cake-card h1,
+body.second-gift-bg .cake-card h1 span{
+ color:#FFF1C1;
+}
+body.second-gift-bg .cake-card .bubble-button,
+body.second-gift-bg .cake-card .bubble-button.hot{
+ color:#5A3A2E;
+}
