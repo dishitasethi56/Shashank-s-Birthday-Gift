@@ -404,3 +404,12 @@ body.sunoo-page-bg .bubble-button.hot{
  color:#fffdf5;
  border-color:#fff8e8;
 }
+
+
+/* Birthday page title: pure baby pink fill with its existing pure-white outline. */
+body.first-gift-bg .birthday-title,
+body.first-gift-bg .birthday-title span{
+ color:#ffb6d5;
+ -webkit-text-stroke:1.5px #ffffff;
+ paint-order:stroke fill;
+}
