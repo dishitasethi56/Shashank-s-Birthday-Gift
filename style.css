@@ -304,3 +304,51 @@ body.third-gift-bg .letter-sheet{
  background:#fffaf0;
 }
 body.third-gift-bg .env-flap{border-top-color:#e8b8ad}
+
+
+/* Soft pastel text treatment requested for the opening, yes, cake, letter and gifts pages.
+   Text colour only: existing backgrounds, buttons, borders and layout remain untouched. */
+:root{
+ --text-dusty-pink:#d28fa4;
+ --text-soft-cream:#e9dec8;
+ --text-warm-beige:#b69a78;
+ --text-mint-turquoise:#619e94;
+}
+body.first-page .arc-heading text,
+body.yes-page-bg .arc-heading text,
+body.second-gift-bg h1,
+body.third-gift-bg .page-card > h1,
+body.pick-gift-bg .page-heading > h1{
+ color:var(--text-dusty-pink);
+ fill:var(--text-dusty-pink);
+}
+body.first-page .eyebrow,
+body.yes-page-bg .eyebrow,
+body.second-gift-bg .eyebrow,
+body.third-gift-bg .eyebrow,
+body.pick-gift-bg .page-heading > .eyebrow{
+ color:var(--text-warm-beige);
+}
+body.first-page .micro,
+body.yes-page-bg .micro,
+body.second-gift-bg .subtitle,
+body.second-gift-bg .message,
+body.third-gift-bg .micro,
+body.third-gift-bg .letter-text p,
+body.pick-gift-bg .page-heading > .subtitle{
+ color:var(--text-mint-turquoise);
+}
+body.first-page footer,
+body.yes-page-bg footer,
+body.second-gift-bg footer,
+body.third-gift-bg footer,
+body.pick-gift-bg footer{
+ color:var(--text-warm-beige);
+}
+body.third-gift-bg .letter-text h2,
+body.third-gift-bg .signature{
+ color:var(--text-dusty-pink);
+}
+body.pick-gift-bg .present-card b{color:#a77e86}
+body.pick-gift-bg .present-card small{color:#8b7968}
+body.pick-gift-bg .present-card strong{color:var(--text-mint-turquoise)}
