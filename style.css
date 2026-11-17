@@ -431,3 +431,24 @@ body.first-gift-bg .birthday-title span{
  -webkit-text-stroke:3px #5A3A2E;
  paint-order:stroke fill;
 }
+
+
+/* Pick Your Present title: match the Birthday title's misty-rose fill and dark-brown outline. */
+body.pick-gift-bg .page-heading > h1{
+ font-family:'Playfair Display',serif;
+ font-weight:800;
+ letter-spacing:-.025em;
+ color:#FFE4E1;
+ -webkit-text-stroke:3px #5A3A2E;
+ paint-order:stroke fill;
+}
+
+/* Open Your Letter title: match Make a Wish typography and pastel text colour. */
+body.third-gift-bg .page-card > h1{
+ font-family:'Playfair Display',serif;
+ font-weight:800;
+ letter-spacing:-.025em;
+ color:#d28fa4;
+ -webkit-text-stroke:1.5px #ffffff;
+ paint-order:stroke fill;
+}
