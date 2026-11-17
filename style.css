@@ -73,7 +73,7 @@
 body.first-page{position:relative;isolation:isolate;background:none}
 body.first-page::before{content:"";position:fixed;inset:0;z-index:-2;background-image:url("assets/background-first-page.jpg");background-position:center;background-size:cover;background-repeat:no-repeat}
 body.first-page .confetti-bg{z-index:-1}
-body.first-page .page-card.landing{background:linear-gradient(145deg,#ffffffb8,#fff4f8b8);backdrop-filter:blur(2px)}
+body.first-page .page-card.landing{background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none}
 @media(min-width:761px){
  body.first-page::before{inset:auto;width:100vh;height:100vw;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg)}
 }
