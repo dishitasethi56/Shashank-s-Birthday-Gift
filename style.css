@@ -374,3 +374,19 @@ body.sunoo-page-bg footer,
 body.sunoo-page-bg footer span{
  color:#d6a23e;
 }
+
+
+/* Crisp pure-white outlines for the recently recoloured headings only. */
+body.first-page .arc-heading text,
+body.yes-page-bg .arc-heading text,
+body.sunoo-page-bg .arc-heading text{
+ stroke:#ffffff;
+ stroke-width:7px;
+ stroke-linejoin:round;
+ paint-order:stroke fill;
+}
+body.second-gift-bg h1,
+body.first-gift-bg .birthday-title{
+ -webkit-text-stroke:1.5px #ffffff;
+ paint-order:stroke fill;
+}
