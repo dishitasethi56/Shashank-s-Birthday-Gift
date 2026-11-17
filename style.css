@@ -495,3 +495,12 @@ body.yes-page-bg .arc-heading text{
  stroke-linejoin:round;
  paint-order:stroke fill;
 }
+
+
+/* First page: dark-brown outlines on both curved headings; keep the warm-tan fill unchanged. */
+body.first-page .arc-heading text{
+ stroke:#5A3A2E;
+ stroke-width:7px;
+ stroke-linejoin:round;
+ paint-order:stroke fill;
+}
