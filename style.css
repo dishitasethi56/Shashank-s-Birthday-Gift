@@ -639,3 +639,14 @@ body.first-page .eyebrow{
  background:#fff0f8ed;
  box-shadow:0 3px 14px #27345b22;
 }
+
+
+/* Strong first-page caption restoration: keep the blush pill visible over all earlier overrides. */
+body.first-page .page-card.landing > .eyebrow{
+ display:table!important;
+ background:rgba(255,240,248,.94)!important;
+ border:1px solid rgba(255,220,235,.98)!important;
+ box-shadow:0 3px 14px rgba(39,52,91,.14)!important;
+ border-radius:999px!important;
+ padding:7px 16px!important;
+}
