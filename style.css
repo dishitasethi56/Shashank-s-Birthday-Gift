@@ -413,3 +413,12 @@ body.first-gift-bg .birthday-title span{
  -webkit-text-stroke:1.5px #ffffff;
  paint-order:stroke fill;
 }
+
+
+/* Birthday title: misty-rose fill with a thicker pure-white outline. */
+body.first-gift-bg .birthday-title,
+body.first-gift-bg .birthday-title span{
+ color:#FFE4E1;
+ -webkit-text-stroke:3px #ffffff;
+ paint-order:stroke fill;
+}
