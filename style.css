@@ -131,3 +131,27 @@ footer{display:table;margin:14px auto 0;padding:8px 18px;border-radius:999px;bac
  .message{font-size:1.04rem;line-height:1.6}
  .eyebrow{font-size:.78rem;letter-spacing:.09em}
 }
+
+
+/* Pick-your-present cards: translucent pastel glass, coordinated with the artwork */
+body.pick-gift-bg .present-card{
+ border:2px solid #fffdebdc;
+ box-shadow:0 14px 34px #28365b38,inset 0 1px 0 #ffffffd9;
+ backdrop-filter:blur(9px) saturate(1.12);
+ -webkit-backdrop-filter:blur(9px) saturate(1.12);
+}
+body.pick-gift-bg .present-card.gift-one{
+ background:linear-gradient(145deg,#fff0c9e8,#ffc6d8df);
+}
+body.pick-gift-bg .present-card.gift-two{
+ background:linear-gradient(145deg,#d7f8eee8,#bceaffdf);
+}
+body.pick-gift-bg .present-card.gift-three{
+ background:linear-gradient(145deg,#e6dcffe8,#ffd2e8df);
+}
+body.pick-gift-bg .present-card b{color:#27365e;text-shadow:0 1px 0 #ffffffd9}
+body.pick-gift-bg .present-card small{color:#354467;text-shadow:0 1px 0 #ffffffd9}
+body.pick-gift-bg .present-card strong{color:#84284d;text-shadow:0 1px 0 #fff}
+@media(max-width:760px){
+ body.pick-gift-bg .present-card{backdrop-filter:blur(7px) saturate(1.1);-webkit-backdrop-filter:blur(7px) saturate(1.1)}
+}
