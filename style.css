@@ -77,3 +77,22 @@ body.first-page .page-card.landing{background:transparent;border-color:transpare
 @media(min-width:761px){
  body.first-page::before{inset:auto;width:100vh;height:100vw;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg)}
 }
+
+
+/* Uploaded page backgrounds: portrait on mobile, rotated landscape on desktop. */
+body.no-page-bg,body.sunoo-page-bg,body.first-gift-bg,body.second-gift-bg,body.third-gift-bg,body.pick-gift-bg,body.yes-page-bg{position:relative;isolation:isolate;background:none}
+body.no-page-bg::before,body.sunoo-page-bg::before,body.first-gift-bg::before,body.second-gift-bg::before,body.third-gift-bg::before,body.pick-gift-bg::before,body.yes-page-bg::before{content:"";position:fixed;inset:0;z-index:-2;background-position:center;background-size:cover;background-repeat:no-repeat}
+body.no-page-bg::before{background-image:url("assets/no-page-background.jpg")}
+body.sunoo-page-bg::before{background-image:url("assets/sunoo-page%20background.jpg")}
+body.first-gift-bg::before{background-image:url("assets/first-gift-background.jpg")}
+body.second-gift-bg::before{background-image:url("assets/second-gift-background.jpg")}
+body.third-gift-bg::before{background-image:url("assets/third-gift-background.jpg")}
+body.pick-gift-bg::before{background-image:url("assets/pick-gift-background.jpg")}
+body.yes-page-bg::before{background-image:url("assets/yes-page-background.jpg")}
+body.no-page-bg .page-card,body.sunoo-page-bg .page-card,body.first-gift-bg .page-card,body.second-gift-bg .page-card,body.third-gift-bg .page-card,body.yes-page-bg .page-card{background:transparent!important;border-color:transparent!important;box-shadow:none!important;backdrop-filter:none!important}
+body.no-page-bg .page-card:before,body.no-page-bg .page-card:after,body.sunoo-page-bg .page-card:before,body.sunoo-page-bg .page-card:after,body.first-gift-bg .page-card:before,body.first-gift-bg .page-card:after,body.second-gift-bg .page-card:before,body.second-gift-bg .page-card:after,body.third-gift-bg .page-card:before,body.third-gift-bg .page-card:after,body.yes-page-bg .page-card:before,body.yes-page-bg .page-card:after{display:none!important}
+body.pick-gift-bg .wide-page{background:transparent!important;box-shadow:none!important;border:0!important}
+body.no-page-bg .confetti-bg,body.sunoo-page-bg .confetti-bg,body.first-gift-bg .confetti-bg,body.second-gift-bg .confetti-bg,body.third-gift-bg .confetti-bg,body.pick-gift-bg .confetti-bg,body.yes-page-bg .confetti-bg{z-index:-1}
+@media(min-width:761px){
+ body.no-page-bg::before,body.sunoo-page-bg::before,body.first-gift-bg::before,body.second-gift-bg::before,body.third-gift-bg::before,body.pick-gift-bg::before,body.yes-page-bg::before{inset:auto;width:100vh;height:100vw;top:50%;left:50%;transform:translate(-50%,-50%) rotate(90deg)}
+}
