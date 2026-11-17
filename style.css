@@ -537,3 +537,13 @@ body.second-gift-bg .cake-card .bubble-button.hot{
  color:#5A3A2E;
  border-color:#FFF8DF;
 }
+
+
+/* Make a Wish page: switch all page text to dark brown. */
+body.second-gift-bg .cake-card .eyebrow,
+body.second-gift-bg .cake-card h1,
+body.second-gift-bg .cake-card .subtitle,
+body.second-gift-bg .cake-card .message,
+body.second-gift-bg .cake-card .bubble-button.hot{
+ color:#5A3A2E;
+}
