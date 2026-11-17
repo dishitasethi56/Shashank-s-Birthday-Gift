@@ -486,3 +486,12 @@ body.first-page .arc-bottom text{fill:#65B9AD;color:#65B9AD;}
 /* First page: both curved headings use the same warm tan text; preserve their existing white outlines. */
 body.first-page .arc-top text,
 body.first-page .arc-bottom text{fill:#B8956A;color:#B8956A;}
+
+
+/* Yes page: change the outline of both curved heading texts to warm tan; preserve their existing fill and all other styling. */
+body.yes-page-bg .arc-heading text{
+ stroke:#B8956A;
+ stroke-width:7px;
+ stroke-linejoin:round;
+ paint-order:stroke fill;
+}
