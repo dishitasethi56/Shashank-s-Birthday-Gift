@@ -352,3 +352,25 @@ body.third-gift-bg .signature{
 body.pick-gift-bg .present-card b{color:#a77e86}
 body.pick-gift-bg .present-card small{color:#8b7968}
 body.pick-gift-bg .present-card strong{color:var(--text-mint-turquoise)}
+
+
+/* Final text-colour refinements requested on 18 Nov.
+   Only text/fill colours are changed; backgrounds, buttons, borders and layout stay intact. */
+body.first-page .arc-heading text,
+body.yes-page-bg .arc-heading text,
+body.second-gift-bg h1{
+ color:#f6e7a8;
+ fill:#f6e7a8;
+}
+body.first-gift-bg .birthday-title,
+body.first-gift-bg .birthday-title span{
+ color:#65b9ad;
+}
+body.sunoo-page-bg .arc-heading text{
+ fill:#d6a23e;
+}
+body.sunoo-page-bg .eyebrow,
+body.sunoo-page-bg footer,
+body.sunoo-page-bg footer span{
+ color:#d6a23e;
+}
