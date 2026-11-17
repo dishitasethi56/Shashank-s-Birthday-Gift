@@ -504,3 +504,21 @@ body.first-page .arc-heading text{
  stroke-linejoin:round;
  paint-order:stroke fill;
 }
+
+
+/* Coordinated button backgrounds across all pages except Sunoo.
+   Backgrounds only: preserve existing button text, borders, sizing, shadows and hover behaviour. */
+body.first-page .bubble-button.hot{background:linear-gradient(135deg,#B8956A,#9E7D55)}
+body.first-page .bubble-button.cool{background:linear-gradient(135deg,#F2E5D2,#DCC7A8)}
+body.no-page-bg .bubble-button.hot{background:linear-gradient(135deg,#BBA789,#9E896C)}
+body.no-page-bg .bubble-button.cool{background:linear-gradient(135deg,#F0E7D8,#DCCDB8)}
+body.first-gift-bg .bubble-button.hot{background:linear-gradient(135deg,#D99EAE,#BE788D)}
+body.first-gift-bg .bubble-button.cool{background:linear-gradient(135deg,#F5DFE4,#E8C5CF)}
+body.second-gift-bg .bubble-button.hot{background:linear-gradient(135deg,#75B7A9,#55998B)}
+body.second-gift-bg .bubble-button.cool{background:linear-gradient(135deg,#DCEFE7,#BFDCD2)}
+body.third-gift-bg .bubble-button.hot{background:linear-gradient(135deg,#C77B5B,#A95F47)}
+body.third-gift-bg .bubble-button.cool{background:linear-gradient(135deg,#F0DDC8,#DCC2A6)}
+body.pick-gift-bg .bubble-button.hot{background:linear-gradient(135deg,#C6A04A,#A9822E)}
+body.pick-gift-bg .bubble-button.cool{background:linear-gradient(135deg,#F2E7C8,#E1D1A6)}
+body.yes-page-bg .bubble-button.hot{background:linear-gradient(135deg,#B8956A,#9E7D55)}
+body.yes-page-bg .bubble-button.cool{background:linear-gradient(135deg,#EADCC8,#D6C0A3)}
