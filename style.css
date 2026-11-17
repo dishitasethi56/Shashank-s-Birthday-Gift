@@ -287,3 +287,20 @@ body.pick-gift-bg .page-heading > h1{
 }
 body.pick-gift-bg .page-heading > .eyebrow{color:#9a7040}
 body.pick-gift-bg .page-heading > .subtitle{color:#66503d}
+
+
+/* Restore the warm terracotta accents on the letter page only */
+body.third-gift-bg .bubble-button.hot{
+ background:linear-gradient(135deg,#c77b5b,#a95f47);
+ color:#fffaf0;
+ border-color:#fff1df;
+}
+body.third-gift-bg .big-envelope{
+ background:#b96f52;
+ border-color:#f7f1df;
+}
+body.third-gift-bg .letter-sheet{
+ color:#a65f48;
+ background:#fffaf0;
+}
+body.third-gift-bg .env-flap{border-top-color:#e8b8ad}
