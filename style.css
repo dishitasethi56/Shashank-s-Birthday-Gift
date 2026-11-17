@@ -599,3 +599,12 @@ body.second-gift-bg .cake-card .bubble-button,
 body.second-gift-bg .cake-card .bubble-button.hot{
  color:#5A3A2E;
 }
+
+
+/* Sunoo page: icy-blue outline for the curved 'Sunoo I lovee you' heading; keep its gold fill unchanged. */
+body.sunoo-page-bg .arc-heading text{
+ stroke:#BFEFFF;
+ stroke-width:7px;
+ stroke-linejoin:round;
+ paint-order:stroke fill;
+}
