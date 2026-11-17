@@ -229,3 +229,166 @@ body.pick-gift-bg footer{
  body.pick-gift-bg .page-heading h1{font-size:clamp(2.6rem,10vw,3.5rem)}
  body.pick-gift-bg .present-card b{font-size:1.32rem}
 }
+
+
+/* Unified warm vintage palette for every page except Sunoo */
+:root{
+ --v-cream:#f7f1df;
+ --v-beige:#e8dcc5;
+ --v-sage:#829b7b;
+ --v-blush:#e8b8ad;
+ --v-terracotta:#b96f52;
+ --v-mustard:#d4a83e;
+ --v-gold:#c69b45;
+ --v-cocoa:#514033;
+ --v-forest:#405c49;
+}
+body:not(.sunoo-page-bg){
+ color:var(--v-cocoa);
+ font-family:'Baloo 2',sans-serif;
+}
+body:not(.sunoo-page-bg) h1,
+body:not(.sunoo-page-bg) .arc-heading text,
+body:not(.sunoo-page-bg) .letter-text h2{
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ color:var(--v-forest);
+ fill:var(--v-forest);
+ text-shadow:0 2px 0 #fff9e9,0 4px 12px #51403330;
+}
+body:not(.sunoo-page-bg) .arc-heading text{
+ stroke:#fff8e9;
+ stroke-width:8px;
+ paint-order:stroke;
+}
+body:not(.sunoo-page-bg) .no-page .arc-heading text{fill:var(--v-terracotta)}
+body:not(.sunoo-page-bg) .eyebrow{
+ background:#f7f1dfee;
+ color:#6b5942;
+ border:1px solid #d7c6a6;
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+}
+body:not(.sunoo-page-bg) .subtitle,
+body:not(.sunoo-page-bg) .message,
+body:not(.sunoo-page-bg) .micro,
+body:not(.sunoo-page-bg) .signature,
+body:not(.sunoo-page-bg) .hero-mascot-caption,
+body:not(.sunoo-page-bg) footer,
+body:not(.sunoo-page-bg) .back-link{
+ background:#f7f1dfee;
+ color:var(--v-cocoa);
+ border-color:#d8c9ad;
+ font-weight:700;
+ box-shadow:0 4px 16px #51403325;
+}
+body:not(.sunoo-page-bg) .signature,
+body:not(.sunoo-page-bg) .letter-text h2{color:var(--v-terracotta)}
+body:not(.sunoo-page-bg) .back-link{
+ text-decoration-color:var(--v-terracotta);
+}
+body:not(.sunoo-page-bg) .bubble-button{
+ border:2px solid #fff8e9;
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ box-shadow:0 6px 0 #51403325,0 10px 22px #51403320;
+}
+body:not(.sunoo-page-bg) .bubble-button.hot{
+ background:linear-gradient(135deg,#c77b5b,#a95f47);
+ color:#fffaf0;
+}
+body:not(.sunoo-page-bg) .bubble-button.cool{
+ background:linear-gradient(135deg,#9aaf8d,#718b70);
+ color:#fffdf3;
+}
+body:not(.sunoo-page-bg) .no-reply{
+ background:var(--v-cream);
+ color:#98553f;
+ border-color:var(--v-terracotta);
+}
+body:not(.sunoo-page-bg) .no-reply small{color:var(--v-cocoa)}
+body:not(.sunoo-page-bg) .letter-text{
+ background:#f7f1dfF2;
+ border:2px solid #d7c6a6;
+ color:var(--v-cocoa);
+}
+body:not(.sunoo-page-bg) .letter-text p{color:var(--v-cocoa);font-weight:600}
+body:not(.sunoo-page-bg) .page-card{
+ border-color:#f7f1dfbb;
+ box-shadow:0 18px 48px #51403325,inset 0 0 0 5px #fff8e955;
+}
+body:not(.sunoo-page-bg) .page-card:before{background:#d4a83e30}
+body:not(.sunoo-page-bg) footer span{color:var(--v-terracotta)}
+body:not(.sunoo-page-bg) .present-card{
+ border:3px solid #f7f1df;
+ color:var(--v-cocoa);
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ box-shadow:0 12px 28px #51403335,inset 0 1px 0 #fffdf2;
+ backdrop-filter:blur(8px) saturate(1.04);
+ -webkit-backdrop-filter:blur(8px) saturate(1.04);
+}
+body:not(.sunoo-page-bg) .present-card.gift-one{
+ background:linear-gradient(145deg,#f7f1dfed,#e8b8adE8);
+}
+body:not(.sunoo-page-bg) .present-card.gift-two{
+ background:linear-gradient(145deg,#e8dcc5ed,#cbd8c0ed);
+}
+body:not(.sunoo-page-bg) .present-card.gift-three{
+ background:linear-gradient(145deg,#f1e3bfed,#d9bd79ed);
+}
+body:not(.sunoo-page-bg) .present-card b{color:#514033;font-weight:700}
+body:not(.sunoo-page-bg) .present-card small{color:#514638;font-weight:700}
+body:not(.sunoo-page-bg) .present-card strong{color:#55735c;font-weight:700}
+body:not(.sunoo-page-bg) .birthday-title{color:var(--v-terracotta)}
+body:not(.sunoo-page-bg) .cake-card{
+ background:linear-gradient(145deg,#f7f1df,#e8dcc5 55%,#d9bd79);
+}
+body:not(.sunoo-page-bg) .pink-card{
+ background:linear-gradient(145deg,#f7f1df,#e8b8ad 55%,#e8dcc5);
+}
+body:not(.sunoo-page-bg) .letter-card{
+ background:linear-gradient(145deg,#f7f1df,#e8dcc5 55%,#e8b8ad);
+}
+body:not(.sunoo-page-bg) .big-envelope{
+ background:#b96f52;border-color:#f7f1df;
+}
+body:not(.sunoo-page-bg) .letter-sheet{color:#a65f48;background:#fffaf0}
+body:not(.sunoo-page-bg) .env-front{
+ background:linear-gradient(145deg,transparent 49%,#a95f47 50%) left/50% 100% no-repeat,linear-gradient(215deg,transparent 49%,#d18a6d 50%) right/50% 100% no-repeat;
+}
+body:not(.sunoo-page-bg) .env-flap{border-top-color:#e8b8ad}
+
+/* Sunoo page: dedicated warm-gold storybook palette */
+body.sunoo-page-bg{color:#59452d}
+body.sunoo-page-bg h1,
+body.sunoo-page-bg .arc-heading text{
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ color:#815b25;
+ fill:#815b25;
+ text-shadow:0 2px 0 #fff5d8,0 4px 14px #805b2638;
+}
+body.sunoo-page-bg .arc-heading text{stroke:#fff3cf;stroke-width:8px;paint-order:stroke}
+body.sunoo-page-bg .eyebrow,
+body.sunoo-page-bg .subtitle,
+body.sunoo-page-bg .message,
+body.sunoo-page-bg .micro,
+body.sunoo-page-bg .signature,
+body.sunoo-page-bg footer,
+body.sunoo-page-bg .back-link,
+body.sunoo-page-bg .hero-mascot-caption{
+ background:#fff2cfed;
+ color:#76521f;
+ border-color:#d9b45c;
+ font-weight:700;
+ box-shadow:0 4px 16px #72501f25;
+}
+body.sunoo-page-bg .signature{color:#a66d24}
+body.sunoo-page-bg .bubble-button{
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ border-color:#fff0c5;
+}
+body.sunoo-page-bg .bubble-button.hot{background:linear-gradient(135deg,#d9a441,#b77a2c);color:#fffaf0}
+body.sunoo-page-bg .bubble-button.cool{background:linear-gradient(135deg,#f0d58b,#d9b45c);color:#67491f}
+body.sunoo-page-bg footer span{color:#a66d24}
