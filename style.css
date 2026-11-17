@@ -626,3 +626,9 @@ body.first-page .eyebrow{
  background:transparent;
  box-shadow:none;
 }
+
+
+/* First page: remove the blush translucent quarter-circle decoration from the landing card. */
+body.first-page .page-card.landing:before{
+ display:none!important;
+}
