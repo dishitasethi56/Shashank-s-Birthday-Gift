@@ -547,3 +547,23 @@ body.second-gift-bg .cake-card .message,
 body.second-gift-bg .cake-card .bubble-button.hot{
  color:#5A3A2E;
 }
+
+
+/* Make a Wish: buttercream is the only text and button colour, including the button label. */
+body.second-gift-bg .cake-card,
+body.second-gift-bg .cake-card *,
+body.second-gift-bg .cake-card h1,
+body.second-gift-bg .cake-card h1 span {
+ color:#FFF1C1;
+}
+body.second-gift-bg .cake-card h1{
+ -webkit-text-stroke:0;
+ text-shadow:none;
+}
+body.second-gift-bg .cake-card .bubble-button,
+body.second-gift-bg .cake-card .bubble-button.hot{
+ background:#FFF1C1;
+ color:#FFF1C1;
+ border-color:#FFF1C1;
+ text-shadow:none;
+}
