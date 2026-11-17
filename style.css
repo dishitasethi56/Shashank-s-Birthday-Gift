@@ -155,3 +155,24 @@ body.pick-gift-bg .present-card strong{color:#84284d;text-shadow:0 1px 0 #fff}
 @media(max-width:760px){
  body.pick-gift-bg .present-card{backdrop-filter:blur(7px) saturate(1.1);-webkit-backdrop-filter:blur(7px) saturate(1.1)}
 }
+
+
+/* Gift cards matched to the mint, cream and cocoa palette of the page artwork */
+body.pick-gift-bg .present-card{
+ border:3px solid #76513f;
+ box-shadow:0 12px 28px #4b382b38,inset 0 1px 0 #fffdf2e8;
+ backdrop-filter:blur(8px) saturate(1.05);
+ -webkit-backdrop-filter:blur(8px) saturate(1.05);
+}
+body.pick-gift-bg .present-card.gift-one{
+ background:linear-gradient(145deg,#f3f0d9ed,#d5e8d8e8);
+}
+body.pick-gift-bg .present-card.gift-two{
+ background:linear-gradient(145deg,#d8eee5ed,#c2dfd8e8);
+}
+body.pick-gift-bg .present-card.gift-three{
+ background:linear-gradient(145deg,#eeeedaed,#d4e5d5e8);
+}
+body.pick-gift-bg .present-card b{color:#493528;text-shadow:0 1px 0 #fffdf0}
+body.pick-gift-bg .present-card small{color:#554437;text-shadow:0 1px 0 #fffdf0}
+body.pick-gift-bg .present-card strong{color:#356b5e;text-shadow:0 1px 0 #fffdf0}
