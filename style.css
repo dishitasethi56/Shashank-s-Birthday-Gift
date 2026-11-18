@@ -659,3 +659,8 @@ body.sunoo-page-bg .arc-heading text{
  font-weight:700;
  letter-spacing:.2px;
 }
+
+
+/* NO page: match the small caption and TRY AGAIN button background to the burgundy heading. */
+body.no-page-bg .eyebrow{color:#8F2349!important;}
+body.no-page-bg .button-row .bubble-button.hot{background:#8F2349!important;}
