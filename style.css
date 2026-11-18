@@ -650,3 +650,12 @@ body.first-page .page-card.landing > .eyebrow{
  border-radius:999px!important;
  padding:7px 16px!important;
 }
+
+
+/* Requested finishing touches: tan opening-page note and a rounded, bold Sunoo heading. */
+body.first-page .micro{color:#B8956A!important;}
+body.sunoo-page-bg .arc-heading text{
+ font-family:'Fredoka','Baloo 2',sans-serif;
+ font-weight:700;
+ letter-spacing:.2px;
+}
